@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ÇIRAK | AO&MAZ Technology</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { background-color: #050505; color: #e5e5e5; font-family: 'Inter', sans-serif; }
+        .gradient-text { background: linear-gradient(90deg, #ffffff, #666666); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .border-glow { border: 1px solid rgba(255,255,255,0.05); transition: 0.4s; }
+        .border-glow:hover { border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 0 30px rgba(255,255,255,0.03); transform: translateY(-5px); }
+        .hero-bg { background: radial-gradient(circle at top, #111 0%, #050505 100%); }
+    </style>
+</head>
+<body class="antialiased hero-bg">
+
+    <nav class="p-8 flex justify-between items-center max-w-6xl mx-auto">
+        <div class="text-2xl font-bold tracking-tighter hover:opacity-80 cursor-pointer transition">
+            ÇI<span class="text-gray-500">-</span>RAK
+        </div>
+        <div class="hidden md:flex space-x-10 text-[10px] uppercase tracking-[0.3em] text-gray-500 font-bold">
+            <a href="#" class="hover:text-white transition">Projeler</a>
+            <a href="#" class="hover:text-white transition">B2-Micro</a>
+            <a href="#" class="hover:text-red-700 transition">Kıyamet Paketi</a>
+        </div>
+    </nav>
+
+    <section class="mt-24 text-center px-6">
+        <div class="inline-block px-4 py-1 border border-gray-800 rounded-full text-[10px] uppercase tracking-widest text-gray-500 mb-8">
+            AO&MAZ Technology | Bölüm 1
+        </div>
+        <h1 class="text-5xl md:text-8xl font-extrabold gradient-text mb-8 tracking-tighter">
+            Geleceği Eğitiyoruz.
+        </h1>
+        <p class="max-w-2xl mx-auto text-gray-400 text-lg md:text-xl leading-relaxed font-light">
+            Otonom sistemlerden toryum plazma itki teknolojilerine; en karmaşık mühendislik süreçlerini bir çırak titizliğiyle çözüyoruz.
+        </p>
+        <div class="mt-12 flex flex-col md:flex-row justify-center gap-4">
+            <button class="bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-gray-200 transition text-sm">PROJELERİ KEŞFET</button>
+            <button class="border border-gray-800 text-white px-10 py-4 rounded-full font-bold hover:bg-white hover:text-black transition text-sm">BİZE ULAŞIN</button>
+        </div>
+    </section>
+
+    <section class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mt-40 px-6 pb-20">
+        <div class="p-10 border-glow rounded-3xl bg-[#080808]">
+            <div class="text-xs text-blue-500 font-bold mb-4 uppercase tracking-widest">Uzay Sistemleri</div>
+            <h3 class="text-2xl font-bold mb-4 text-white">B2-Micro</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">60 ton kapasiteli, toryum tabanlı plazma motorlu kargo uzay aracı konsepti.</p>
+        </div>
+        
+        <div class="p-10 border-glow rounded-3xl bg-[#080808]">
+            <div class="text-xs text-green-500 font-bold mb-4 uppercase tracking-widest">Giyilebilir Teknoloji</div>
+            <h3 class="text-2xl font-bold mb-4 text-white">Çırak-1</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">Saha operasyonları ve teknik servis için AI destekli akıllı gözlük ekosistemi.</p>
+        </div>
+
+        <div class="p-10 border-glow rounded-3xl bg-[#080808]">
+            <div class="text-xs text-purple-500 font-bold mb-4 uppercase tracking-widest">Termodinamik</div>
+            <h3 class="text-2xl font-bold mb-4 text-white">VeraFlux</h3>
+            <p class="text-gray-500 text-sm leading-relaxed">Yüksek yoğunluklu veri merkezleri için geliştirilen gelişmiş soğutma sıvısı.</p>
+        </div>
+    </section>
+
+    <footer class="mt-20 p-12 border-t border-gray-900 text-center">
+        <div class="text-[10px] text-gray-600 tracking-[0.5em] uppercase">
+            © 2026 AO&MAZ TECHNOLOGY | CIRAK.COM.TR
+        </div>
+    </footer>
+
+</body>
+</html>
